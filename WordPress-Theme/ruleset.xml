@@ -4,6 +4,14 @@
 	<description>Standards any Theme to be published on wordpress.org should comply with.</description>
 
 
+	<!-- Only UNIX line endings allowed. -->
+	<!-- Covers: https://github.com/Otto42/theme-check/blob/master/checks/lineendings.php -->
+	<rule ref="Generic.Files.LineEndings">
+		<properties>
+			<property name="eolChar" value="\n"/>
+		</properties>
+	</rule>
+
 
 
 </ruleset>
