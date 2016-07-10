@@ -5,5 +5,8 @@
 
 
 
+	<!-- No ByteOrderMark allowed - important to prevent issues with content being sent before headers. -->
+	<rule ref="Generic.Files.ByteOrderMark" />
+
 
 </ruleset>
