@@ -3,7 +3,8 @@
 	<!-- For more information: https://make.wordpress.org/themes/handbook/review/ -->
 	<description>Standards any Theme to be published on wordpress.org should comply with.</description>
 
-
+	<!-- Prevent path disclosure when using add_theme_page(). -->
+	<rule ref="WordPress.VIP.PluginMenuSlug"/>
 
 
 </ruleset>
